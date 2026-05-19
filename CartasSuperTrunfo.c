@@ -174,7 +174,23 @@ int main() {
     {
         printf("Resultado: carta 2 venceu!\n");
 
+    } 
+
+    printf("\n=======Comparação de cartas (Atributo: Pib)========\n");
+    printf("\n Carta 1 - %s: %f" , estado , pib );
+    printf("\n Carta 2 - %s: %f" , estado_2 , pib_2 );
+
+     if (pib > pib_2)
+    {
+        printf("\nResultado: carta 1 %s venceu!\n" , estado);
     }
+    else if (pib_2 > pib)
+    {
+        printf("\nResultado: carta 2 %s venceu!\n" , estado_2);
+
+    } 
+
+
 
 
     printf("\n=======COMPARANDO POR TODOS OS ATRIBUTOS========\n");
